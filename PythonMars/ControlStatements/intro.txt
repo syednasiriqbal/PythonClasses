@@ -1,0 +1,12 @@
+### Class 8 Time 38:00####
+if
+else 
+elif 
+
+
+for 
+while 
+
+break
+continue
+pass
