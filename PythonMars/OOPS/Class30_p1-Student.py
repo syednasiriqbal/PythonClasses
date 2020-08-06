@@ -1,3 +1,4 @@
+#### Time in Video 05:30 - Before that he talked about DOC string VGOOD to understand OOPS####
 # fnmf nnf nfn nm
 
 # in module -function - def functionname()

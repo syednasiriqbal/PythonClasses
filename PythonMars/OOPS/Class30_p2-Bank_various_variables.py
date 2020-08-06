@@ -1,4 +1,4 @@
-
+#### Time in Video 01:01:30 - Before that he talked about DOC string ####
 # instance variable / object / instance methods and cons 
 # static variable / class  / outside of instance methods and cons 
 # local variable / normal method 

@@ -1,17 +1,19 @@
-def person():
-    print("hello")
-    
-    
-    
+#### Time in Video 29:30 - Before that there is OOPS Introduction ####
+
+# def person():
+#     print("hello")
+  
+  
 class Person: # class name should starts with uppercase 
     
-    ''' This class is defined for Person info '''
+    ''' This class is defined for Person info '''   #Doc String 
     
     name='Raja'
     age=45
     country='India'
     
-    def speak(self):
+    #Actions
+    def speak(self):    #Method #Instance Method
         print("English")
         
     def write(self):

@@ -1,0 +1,5 @@
+Hello, This is Pakistan
+env: preprod
+RELEASES_ROOT: "."
+RELEASE: "2.12.4.20"
+HSM_HOST: 10.122.0.29

@@ -1,5 +1,11 @@
+#### Time in Video  around Time 01:15 ###
+#### ZIP function started in Class23-  CHECK the Practise File###
+
 ipfile=open('Files/ip.txt','r')
 dbfile=open('Files/db.txt','r')
+
+print(ipfile)
+print(dbfile)
 # ipfile.writelines("192.178.80.1\n")
 # ipfile.writelines("192.178.80.2\n")
 # ipfile.writelines("192.178.80.3\n")
@@ -15,20 +21,20 @@ dbfile=open('Files/db.txt','r')
 # dbfile.writelines("DEV2\n")
 # dbfile.writelines("Regression\n")
 
-#listx=[ (ipcontent,dbcontent) for ipcontent in ipfile.readlines() for dbcontent in dbfile.readlines() ]
-#print(listx)
-#trim() 
-listx=[ (ipcontent+dbcontent).replace('\n','@',1).strip() 
+# listx=[ (ipcontent,dbcontent) for ipcontent in ipfile.readlines() for dbcontent in dbfile.readlines() ]
+# print(listx)
+# #trim() 
+listx=[ (ipcontent+dbcontent).replace('\n','@',1).strip()
         for ipcontent,dbcontent in zip(ipfile.readlines(),dbfile.readlines()) ]
 #print(*listx,sep='\n')
 for i in listx:
     print(i)
     
     
-evennumbers=[2,4,6,8,10]
-oddnumbers=[1,3,5,7,9]
-primenumbers=[2,3,5,7,11]
-print(list((zip(evennumbers,oddnumbers,primenumbers))))
+# evennumbers=[2,4,6,8,10]
+# oddnumbers=[1,3,5,7,9]
+# primenumbers=[2,3,5,7,11]
+# print(list((zip(evennumbers,oddnumbers,primenumbers))))
  
  
 

@@ -1,0 +1,4 @@
+env: preprod
+RELEASES_ROOT: "."
+RELEASE: "2.12.4.60"
+HSM_HOST: 10.122.0.29

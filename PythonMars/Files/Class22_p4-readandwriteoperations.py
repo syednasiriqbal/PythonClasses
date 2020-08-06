@@ -1,8 +1,8 @@
-
+#### Time in Video  around Time 37:50 ####
 
 try:
     print("file operations")
-    file=open('Files/july.txt','w') #read/write  w+,w,x
+    file=open('Files/july.txt','r+') #read/write  w+,w,x
         
     if file.readable:
         content=file.read()
